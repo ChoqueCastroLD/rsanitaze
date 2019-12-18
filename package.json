@@ -1,16 +1,15 @@
 {
   "name": "rsanitaze",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Recursively sanitaze js objects || arrays || primitives using the remove-accents module",
-  "main": "index.js",
-  "scripts": {
-  },
+  "main": "src/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChoqueCastroLD/rsanitaze.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ChoqueCastroLD",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChoqueCastroLD/rsanitaze/issues"
