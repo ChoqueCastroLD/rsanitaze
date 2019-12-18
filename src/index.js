@@ -30,10 +30,10 @@ function sanitaze(obj) {
                     result[accents.remove(key)] = sanitaze(element);
             }
         }
+        return result;  
     } catch (error) {
         return obj;
     }
-    return result;
 }
 
 module.exports = sanitaze;
