@@ -1,6 +1,6 @@
 {
   "name": "rsanitaze",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Recursively sanitaze js objects || arrays || primitives using the remove-accents module",
   "main": "src/index.js",
   "scripts": {},
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/ChoqueCastroLD/rsanitaze#readme",
   "dependencies": {
+    "latinize": "^0.4.0",
     "remove-accents": "^0.4.2"
   }
 }
